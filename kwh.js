@@ -12,5 +12,5 @@ function kwh(){
     let valor = kilowatt * horas;
 
     //alertas
-    alert("Valor: " + valor);
+    alert("Valor: R$" + valor);
 }

@@ -1,9 +1,11 @@
 //criando a variavel do tipo lógico
 let continua = true;
+let potenciaWatt;
 
 //repetição
 while(continua){
     //chamando a função
+    opcoes();
     kwh();
 
     //fazendo a pergunta
