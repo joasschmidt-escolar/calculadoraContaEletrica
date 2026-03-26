@@ -4,11 +4,23 @@ let potenciaWatt;
 
 //repetição
 while(continua){
-    //chamando a função
-    opcoes();
-    kwh();
+    let escolha = parseInt(prompt("Digite\n[1] para consumo\n[2] para multiplos e submultiplos\n[3] para lei de ohm\n [4] para registor\n"));
+    switch(escolha){
+        case 1: 
+            opcoes();
+            kwh();
+            break;
+        case 2: 
+            multSub();
+            break;
+        case 3:
+            leiOhm();
+            break;
+        case 4:
+            registor();
+            break;
+    }
 
-    //fazendo a pergunta
     let pergunta = prompt("Quer continuar? ");
     
     //verificando resposta

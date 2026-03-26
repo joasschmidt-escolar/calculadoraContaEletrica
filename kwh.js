@@ -9,7 +9,7 @@ function kwh(){
     let kilowatt = potenciaWatt / 1000;
 
     //valor por hora
-    let valor = kilowatt * horas;
+    let valor = (kilowatt * horas) * valorkwh;
 
     //alertas
     alert("Valor: R$" + valor);

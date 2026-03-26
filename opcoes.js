@@ -1,5 +1,5 @@
 function opcoes(){
-    let item = parseInt(prompt("Digite [1] para geladeira\n[2] para Tv\n[3] para ar condiconado\n[4] para chuveiro elétrico"));
+    let item = parseInt(prompt("Digite\n[1] para geladeira\n[2] para Tv\n[3] para ar condiconado\n[4] para chuveiro elétrico"));
     
 
     switch(item){
