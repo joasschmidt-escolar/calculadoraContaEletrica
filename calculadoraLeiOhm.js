@@ -1,0 +1,1 @@
+//Fórmula: V = R · I
